@@ -9,6 +9,11 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    NDatePicker: typeof import('naive-ui')['NDatePicker']
+    NInput: typeof import('naive-ui')['NInput']
+    NRadio: typeof import('naive-ui')['NRadio']
+    NSpace: typeof import('naive-ui')['NSpace']
+    NTag: typeof import('naive-ui')['NTag']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
